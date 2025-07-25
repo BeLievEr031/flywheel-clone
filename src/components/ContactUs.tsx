@@ -2,7 +2,7 @@ import Input from "./Input"
 
 function ContactUs() {
     return (
-        <section className="md:grid md:grid-cols-2 pt-20 md:pt-32 md:px-20">
+        <section className="md:grid md:grid-cols-2 pt-20 md:pt-32 md:px-20 pb-10">
             <div>
                 <h1 className="font-fjalla-one text-text text-4xl md:text-6xl uppercase">Contact us</h1>
                 <p className="mt-3 md:mt-5 font-libre-baskerville">
