@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar"
 import heroSrc from './assets/hero.png'
-import Input from "./components/Input"
+import ContactUs from "./components/ContactUs"
 function App() {
   return (
     <div className="min-h-screen px-10 md:px-20">
@@ -46,28 +46,7 @@ function App() {
 
       </section>
 
-      <section className="grid grid-cols-2 pt-32">
-        <div>
-          <h1 className="font-fjalla-one text-text text-6xl uppercase">Contact us</h1>
-          <p className="mt-5 font-libre-baskerville">
-            +1 415 714 7580
-          </p>
-          <p className="mt-5 font-libre-baskerville">
-            contact@useflywheel.ai
-          </p>
-          <p className="mt-5 font-libre-baskerville">
-            San Francisco, California
-          </p>
-        </div>
-
-        <div className="space-y-5">
-          <Input label="Name" name="Name" type="text" value="" />
-          <Input label="Email" name="Email" type="Email" value="" />
-          <Input label="Message" name="Message" type="text" value="" variant="textbox" />
-
-          <button className="uppercase font-fjalla-one px-3 md:px-6 py-3 text-white font-bold bg-btn">SUBMIT</button>
-        </div>
-      </section>
+      <ContactUs />
     </div>
   )
 }
