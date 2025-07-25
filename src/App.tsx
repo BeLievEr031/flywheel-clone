@@ -1,7 +1,10 @@
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
-    <div className="text-2xl"></div>
+    <div className="min-h-screen px-10 md:px-20">
+      <Navbar />
+    </div>
   )
 }
 
