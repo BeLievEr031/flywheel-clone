@@ -9,7 +9,7 @@ function ContactUs() {
                     +1 415 714 7580
                 </p>
                 <p className="mt-3 md:mt-5 font-libre-baskerville">
-                    contact@useflywheel.ai
+                    dev.ai@flywheel.builders
                 </p>
                 <p className="mt-3 md:mt-5 font-libre-baskerville">
                     San Francisco, California
